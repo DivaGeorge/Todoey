@@ -8,7 +8,7 @@ class Screen_profile extends StatelessWidget {
     return Container(
       child: Center(child: Text("PRofile",
       style: TextStyle(
-        fontSize: 50,
+        fontSize: 100,
         fontWeight: FontWeight.w600,
         color: Colors.yellow,
       ),
