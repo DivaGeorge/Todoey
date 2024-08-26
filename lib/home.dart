@@ -57,7 +57,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       onPressed: () {
                         Navigator.of(context)
                             .push(MaterialPageRoute(builder: (ctx) {
-                          return screen_3();
+                          return Screen_3();
                         }));
                       },
                       child: Text("More"),
