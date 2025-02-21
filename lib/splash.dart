@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:my_project/home.dart';
-import 'package:my_project/login.dart';
 import 'package:my_project/main.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -41,7 +40,7 @@ class _SplashscreenState extends State<SplashScreen> {
     await Future.delayed(Duration(seconds: 3));
     Navigator.of(context).pushReplacement(
       MaterialPageRoute(
-        builder: (ctx) => LoginPage(),
+        builder: (ctx) => HomeScreen(),
       ),
     );
   }

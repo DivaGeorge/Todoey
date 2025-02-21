@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:my_project/home.dart';
-import 'package:my_project/profile.dart';
-import 'package:my_project/screen_search.dart';
+
 
 
 
@@ -18,8 +17,7 @@ int _currentSelectedIndex = 0;
 
   final _pages =[
     HomeScreen(),
-    Screen_profile(),
-    Screen_search(),
+
     
   ];
 
